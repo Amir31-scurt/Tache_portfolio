@@ -1,0 +1,849 @@
+body{
+    font-family: 'Poppins', serif;
+    font-size: 16px;
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    font-weight: 400;
+}
+h3{
+    font-size: 1.8em;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+h4{
+    font-size: 1.3em;
+    margin: 0; 
+    padding: 0;
+    line-height: 1.5; 
+    font-weight: bold;
+    font-family: 'Poppins', serif;
+    color: white;
+}
+h6{
+    font-size: .9em; 
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #999;
+}
+main section{ 
+    padding: 100px 0 50px;
+    margin-bottom: 60px; 
+}
+header{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 60px;
+}
+header .head-sec{
+    background-image: url(./images/background.jpg);
+    position: relative;
+    background-size: cover;
+    z-index: -1;
+    padding-bottom: 300px;
+    width: 100%;
+}
+header .head-sec .nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .head-sec .nav1 div{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 41px;
+    align-items: center;
+    background-color: #ffad01;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    margin: 20px;
+    font-size: 1em;
+}
+header .head-sec .nav1 div i{
+    font-size: 2em;
+    text-align: center;
+    margin-right: 5px;
+}
+header .head-sec .nav2 div{
+    display: flex;
+    justify-content: right;
+}
+.downlad-btn{
+    padding: 15px 30px; 
+    border-radius: 4px; 
+    float: right;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Poppins', serif;
+    text-decoration: none;
+    position: absolute;
+    right: 210px;
+    border: none;
+    margin-top: 20px;
+	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); 
+    background: #fa0; 
+    color: white;
+    transition: all .2s ease;
+}
+a:active, :hover{
+    -webkit-transform: translateY(0px); 
+    transform: translateY(0px);
+    -webkit-transition: all .25s ease-in-out; 
+    transition: all .25s ease-in-out;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 45em;
+}
+main .head-sec2{
+    position: absolute;
+    top: 8em;
+    align-self: center;
+}
+main .head-sec2 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .head-sec2 form .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .head-sec2 form .image img{
+    border-radius: 80%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+main .head-sec2 .reste{
+    text-align: center;
+    align-self: center;
+    background-color: white;
+    position: relative;
+    top: -100px;
+    padding-top: 100px;
+    padding-left: 180px;
+    padding-right: 180px;
+    z-index: -1;
+}
+main .head-sec2 .reste h1{
+    font-size: 2.2em; 
+    line-height: 1;
+    font-weight: 600;
+    color: #333;
+}
+main .head-sec2 .reste h4{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #fa0;
+    position: relative;
+    top: -30px;
+    font-weight: normal;
+}
+main .head-sec2 .reste .detalis{
+    position: relative;
+    top: -30px;
+    line-height: 12px;
+    font-size: 1em;
+}
+main .head-sec2 .social-media{
+    position: relative;
+    top: -10px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+main .head-sec2 .social-media .fa{
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #879;
+    color: white;
+    border-radius: 50%;
+}
+main .head-sec2 .social-media .fa:hover, .fa:focus, .fa:active{ 
+    background: #fa0;
+    -webkit-transform: scale(1); 
+    transform: scale(1);
+    -webkit-transition: all .25s ease-in-out; 
+    transition: all .25s ease-in-out;
+}
+main .portfolio-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+main .portfolio-section .container .titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .jaune{
+    content: "";
+    background-color: #fa0;
+    margin-bottom: 15px;
+    padding: 5px 1px;
+    border-radius: 10px;
+    position: relative;
+    width: 50px;
+    margin-right: 11.16em;
+}
+main .portfolio-section .container .big-titles{
+    position: relative;
+    margin-right: 1em;
+    align-self: flex-start;
+    left: 100px;
+}
+main .portfolio-section .container .portfolioFilter{
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-section .portfolioFilter{ 
+    margin-top: 60px; 
+    color: #666;
+}
+.portfolio-section .portfolioFilter a{ 
+    margin: 10px 10px 0 0; 
+    font-weight: 600;
+    line-height: 1.6; 
+    font-size: 1.05em; 
+    color: #777;
+    text-decoration: none;
+    position: relative;
+    top: -5em;
+}
+.portfolio-section .portfolioFilter a:hover, a:focus, a:active{
+    color: #fa0;
+}
+.portfolio-section .portfolioFilter a.current{
+    color: #FFA804; 
+}
+.portfolio-section .portfolioContainer{
+    display: grid;
+    grid: 285px auto / auto auto auto;
+    grid-gap: 15px;
+    width: 100%;
+}
+.portfolio-section .portfolioContainer img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio-section .portfolioContainer .p-item-2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: none;
+    padding: none;
+}
+.portfolio-section .portfolioContainer .long{
+    grid-area: 1 / 2 / span 2 / span 1;
+}
+.portfolio-section .portfolioContainer .im8{
+    grid-area: 3 / 1 / span 1 / span 1;
+}
+.portfolio-section .portfolioContainer .im7-10-11 .im7{
+    grid-area: 3 / 2 / span 1 / span 1;
+    height: 47.5%;
+}
+.portfolio-section .portfolioContainer .im10-11{
+    display: flex;
+    flex-direction: row;
+    grid-area: 3 / 2 / span 1 / span 1;
+    height: 50.3%;
+    padding-top: 15px;
+    gap: 15px;
+}
+.about-me .about-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    margin-left: 15px;
+    margin-right: 150px;
+}
+.about-me .about-container .left-about{
+    position: relative;
+    margin-right: 1em;
+    left: 100px;
+}
+.about-me .about-container .right-about{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.about-me .about-container .right-about .r1{
+    color: #666;
+}
+.about-me .about-container .right-about .r2{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.about-me .about-container .right-about .r2 .cla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-me .about-container .right-about .r2 .cla .percent{
+    position: relative;
+    width: 210px;
+    height: 210px;
+}
+.about-me .about-container .right-about .r2 .cla .percent .number h3{
+    font-size: 2em;
+}
+.about-me .about-container .right-about .r2 .cla .percent .number h6{
+    font-size: .8em;
+    font-weight: 400; 
+    color: #778;
+}
+.about-me .about-container .right-about .r2 .cla .percent svg{
+    position: relative;
+    width: 210px;
+    height: 210px;
+}
+.about-me .about-container .right-about .r2 .cla .percent svg circle{
+    width: 210px;
+    height: 210px;
+    fill: none;
+    stroke-width: 4;
+    stroke: #fa0;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 627;
+    stroke-dashoffset: 627;
+}
+.about-me .about-container .right-about .r2 .html .percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #eee;
+    stroke-width: 2;
+}
+.about-me .about-container .right-about .r2 .html .percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - ( 440 * 97) / 100);
+    stroke: #fa0;
+}
+.about-me .about-container .right-about .r2 .webdesign .percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #eee;
+    stroke-width: 2;
+}
+.about-me .about-container .right-about .r2 .webdesign .percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - ( 440 * 78) / 100);
+    stroke: #fa0;
+}
+.about-me .about-container .right-about .r2 .java .percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #eee;
+    stroke-width: 2;
+}
+.about-me .about-container .right-about .r2 .java .percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - ( 440 * 67) / 100);
+    stroke: #fa0;
+}
+.about-me .about-container .right-about .r2 .php .percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #eee;
+    stroke-width: 2;
+}
+.about-me .about-container .right-about .r2 .php .percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - ( 440 * 97) / 100);
+    stroke: #fa0;
+}
+.about-me .about-container .right-about .r2 .cla .percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.work-experience{
+    background: #28023D; 
+    color: #fff;
+}
+.work-experience .work-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18%;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding-right: 50px;
+}
+main .jaune3{
+    content: "";
+    background-color: #fa0;
+    margin-bottom: 15px;
+    padding: 5px 0px;
+    border-radius: 10px;
+    position: relative;
+    width: 50px;
+    margin-right: 12.06em;
+}
+.work-experience .work-container .work-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 1em;
+    left: 100px;
+}
+.work-experience .work-container .work-left h3{
+    color: white;
+}
+.work-experience .work-container h5{
+    display: inline;
+    color: #fa0;
+    font-size: 1em;
+    font-weight: 700;
+    margin: none;
+    padding: none;
+}
+.work-experience .work-container h6{
+    color: #ddd;
+    font-size: .9em;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: none;
+    padding: none;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.work-experience .work-container p{
+    color: #ddd;
+    margin: 0; 
+    padding: 0;
+    line-height: 1.6; 
+    font-size: 1.05em; 
+    font-weight: 400; 
+}
+.work-experience .work-container .work-right{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.work-experience .work-container li{
+    margin: 0; 
+    padding: 0;
+    display: block; 
+    position: relative; 
+    left: -40px;
+    margin-bottom: 10px; 
+    padding-left: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.work-experience .work-container li::before{
+    content: ''; 
+    position: absolute; 
+    top: 50%; 
+    left: 0; 
+    height: 8px; 
+	width: 8px; 
+    margin-top: -5px; 
+    display: block; 
+    border-radius: 10px; 
+    border: 2px solid #fff;
+    justify-content: left;
+}
+.education{
+    position: relative;
+}
+.education .edu-container{
+    display: flex;
+    flex-direction: row;
+    gap: 18%;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding-right: 50px;
+}
+.education .edu-container .edu-left::after{
+    content:''; 
+    position: absolute; 
+    top: 8px; 
+    bottom: 0; 
+    left: 330px;
+	width: 2px;
+    height: 50.7em;
+    background: #ccc;
+}
+.education .edu-container .edu-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 1em;
+    left: 100px;
+}
+.education .edu-container .edulevel{
+    position: relative;
+}
+.education .edu-container .edulevel::after{
+    content:''; 
+    position: absolute; 
+    top: 8px; 
+    left: -66px; 
+    width: 16px; 
+	height: 16px; 
+    border-radius: 10px; 
+    z-index: 1;
+	box-shadow: 0 0 0 8px rgba(255,171,0, .4); 
+    background: #fa0;
+}
+.education .edu-container .edulevel h4{
+    font-weight: 600;
+    font-size: 1.3em;
+    padding: none;
+    margin: none;
+    position: relative;
+    color: #333;
+}
+.education .edu-container .edulevel h5{
+    color: #fa0;
+    display: inline;
+    font-size: 1em;
+    font-weight: 600;
+}
+.education .edu-container .edulevel h6{
+    line-height: 4;
+    font-weight: 100;
+    font-size: .9em; 
+    letter-spacing: 1px;
+}
+.education .edu-container .edulevel p{
+    margin: 30px 0px;
+    line-height: 1.6; 
+    font-size: 1.05em; 
+    font-weight: lighter; 
+    color: #777;
+}
+.projects{
+    position: relative; 
+    padding: 70px 0 70px; 
+    background-size: cover; 
+    z-index: 1; 
+	background-image: url(./images/mandala-4294290__340.jpg);
+    opacity: 0.9;
+    color: #fff;
+    margin-bottom: 0;
+}
+.projects .project-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+}
+.projects .project-container .project{
+    position: relative;
+}
+.projects .project-container .project h1{
+    display: inline-block;
+    text-align: right; 
+    margin-right: 130px;
+    font-size: 4em; 
+    line-height: 1;
+    font-weight: 600;
+}
+.projects .project-container .project h5{
+    position: absolute; 
+    top: 37px; 
+    right: 0px; 
+    width: 110px;
+    font-weight: bold;
+    font-size: 1em
+}
+footer{
+    position: relative;
+}
+footer .foot{
+    text-align: center;
+    background: #28023D;
+    color: #777;
+    padding: 30px 0;
+    line-height: 1.6; 
+    font-size: 1.05em; 
+    font-weight: 400;
+}
+@media only screen and (max-width: 1080px){
+    h3{
+        font-size: 3em;
+    }
+    h4{
+        font-size: 2em;
+    }
+    h6{
+        font-size: 1.8em; 
+    }
+    header .head-sec{
+        padding-bottom: 500px;
+        width: 100%;
+    }
+    .downlad-btn{
+        font-size: 20px;
+        right: 117px;
+    }
+    header .head-sec .nav1 div{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-right: 200px;
+        gap: 1px;
+        font-size: 1.3em;
+    }
+    main .head-sec2{
+        position: absolute;
+        top: 27em;
+        align-self: center;
+        padding-bottom: 30px;
+        font-size: 1.27em;
+    }
+    main .head-sec2 form .image img{
+        border-radius: 80%;
+        width: 100%;
+    }
+    main .head-sec2 .social-media img{
+        width: 56px;
+        border-radius: 50%;
+    }
+    main .portfolio-section .container .titles{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        padding-top: 35em;
+    }
+    main .portfolio-section .container .big-titles{
+        position: relative;
+        margin-right: 1em;
+        align-self: flex-start;
+        left: 60px;
+    }
+    main .portfolio-section .container .portfolioFilter{
+        text-align: center;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio-section .portfolioFilter{ 
+        margin-top: 150px; 
+        color: #666;
+        margin-left: 40px;
+        width: 100%;
+    }
+    .portfolio-section .portfolioFilter a{ 
+        margin: 10px 10px 0 0; 
+        font-weight: 600;
+        line-height: 2; 
+        font-size: 2em; 
+        padding-right: 41px;
+        color: #777;
+        text-decoration: none;
+        position: relative;
+        top: -2em;
+    }
+    .portfolio-section .portfolioContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-self: center;
+        align-items: center;
+        width: 100%;
+    }
+    .portfolio-section .portfolioContainer .im7-10-11 .im7{
+        width: 100%;
+        height: 100%;
+    }
+    .portfolio-section .portfolioContainer .im10-11{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        padding-top: 15px;
+        gap: 15px;
+    }
+    .about-me .about-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30%;
+    }
+    .about-me .about-container .left-about{
+        position: relative;
+        margin-right: 1em;
+        left: 40px;
+        margin-bottom: 30px;
+    }
+    .about-me .about-container .right-about{
+        position: relative;
+        margin-right: 1em;
+        left: 40px;
+    }
+    .about-me .about-container .right-about .r2{
+        flex-direction: column;
+        gap: 2px;
+        margin: none;
+        left: 0;
+    }
+    .about-me .about-container .right-about .r2 .cla .percent{
+        position: relative;
+        width: 350px;
+        height: 350px;
+        left: 90px;
+    }
+    .about-me .about-container .right-about .r2 .cla .percent .number h3{
+        font-size: 3em;
+        position: relative;
+        left: -67px;
+        top: -70px;
+    }
+    .about-me .about-container .right-about .r2 .cla .percent .number h6{
+        font-size: 1.2em;
+        font-weight: 400; 
+        color: #778;
+        position: relative;
+        left: -70px;
+        top: -70px;
+    }
+    .about-me .about-container .right-about .r2 .cla .percent svg{
+        position: relative;
+        width: 350px;
+        height: 350px;
+    }
+    .about-me .about-container .right-about .r2 .cla .percent svg circle{
+        width: 350px;
+        height: 350px;
+        fill: none;
+        stroke-width: 4;
+        stroke: #fa0;
+        transform: translate(5px, 5px);
+        stroke-dasharray: 627;
+        stroke-dashoffset: 627;
+    }
+    .about-me .about-container .right-about .r2 .html .percent svg circle:nth-child(1){
+        stroke-dashoffset: 0;
+        stroke: #eee;
+        stroke-width: 2;
+    }
+    main .jaune{
+        padding: 10px 2px;
+        width: 120px;
+    }
+    main .jaune3{
+        padding: 10px 2px;
+        width: 120px;
+    }
+    .work-experience .work-container{
+        display: flex;
+        flex-direction: column;
+        gap: 25%;
+    }
+    .work-experience .work-container .work-left{
+        position: relative;
+        margin-right: 1em;
+        left: 40px;
+        margin-bottom: 30px;
+    }
+    .work-experience .work-container .work-right{
+        position: relative;
+        margin-right: 1em;
+        left: 40px;
+    }
+    .work-experience .work-container li{
+        padding-left: 40px;
+    }
+    .work-experience .work-container li::before{
+        height: 20px; 
+        width: 20px; 
+        margin-top: -10px; 
+        padding-left: -20px;
+    }
+    .education .edu-container{
+        display: flex;
+        flex-direction: column;
+        gap: 25%;
+        margin-left: 15px;
+        margin-right: 10px;
+        padding-right: 50px;
+    }
+    .education .edu-container .edu-left{
+        position: relative;
+        margin-right: 1em;
+        left: 40px;
+        margin-bottom: 30px;
+    }
+    .education .edu-container .edu-left::after{
+        top: 200px; 
+        bottom: 0; 
+        left: 25px;
+        width: 2px;
+        height: 180.7em;
+    }
+    .education .edu-container .edulevel{
+        position: relative;
+        margin-right: 7em;
+        left: 120px;
+        margin-bottom: 90px;
+    }
+    .education .edu-container .edulevel::after{
+        top: 15px;
+        left: -72px; 
+        width: 35px; 
+        height: 35px; 
+        border-radius: 50%; 
+        z-index: 1;
+        box-shadow: 0 0 0 8px rgba(255,171,0, .4); 
+        background: #fa0;
+    }
+    .education .edu-container .edulevel h6{
+        line-height: 2;
+    }
+    .projects .project-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .projects .project-container .project h1{
+        display: inline-block;
+        text-align: center;
+        margin-right: 130px;
+        font-size: 6em; 
+        line-height: 1;
+        font-weight: 600;
+        margin-right: 300px;
+    }
+    .projects .project-container .project h5{
+        position: absolute; 
+        top: -31px; 
+        right: 350px; 
+        width: 110px;
+        font-weight: bold;
+        font-size: 3em;
+        margin-right: 50px;
+    }
+    footer .foot{
+        font-size: 2em;
+        padding: 20px;
+    }
+}
